@@ -1,0 +1,21 @@
+[0.644s] Invoking command in '/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation': PYTHONPATH=/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/build --no-deps symlink_data --force
+[0.923s] running develop
+[0.924s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.924s]   warnings.warn(
+[1.121s] running egg_info
+[1.121s] writing nav_robot_simulation.egg-info/PKG-INFO
+[1.121s] writing dependency_links to nav_robot_simulation.egg-info/dependency_links.txt
+[1.121s] writing entry points to nav_robot_simulation.egg-info/entry_points.txt
+[1.122s] writing requirements to nav_robot_simulation.egg-info/requires.txt
+[1.122s] writing top-level names to nav_robot_simulation.egg-info/top_level.txt
+[1.123s] reading manifest file 'nav_robot_simulation.egg-info/SOURCES.txt'
+[1.124s] writing manifest file 'nav_robot_simulation.egg-info/SOURCES.txt'
+[1.126s] running build_ext
+[1.126s] Creating /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav-robot-simulation.egg-link (link to .)
+[1.127s] 
+[1.127s] Installed /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation
+[1.127s] running symlink_data
+[1.127s] symbolically linking /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/package.xml -> /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation
+[1.127s] creating /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation/launch
+[1.127s] error: [Errno 2] No such file or directory: '/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation/launch/nav_robot_simulation.launch.py'
+[1.162s] Invoked command in '/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation' returned '1': PYTHONPATH=/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/build --no-deps symlink_data --force

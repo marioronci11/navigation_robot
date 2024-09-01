@@ -1,0 +1,30 @@
+[0.649s] Invoking command in '/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation': PYTHONPATH=/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/build
+[0.931s] running develop
+[0.932s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.932s]   warnings.warn(
+[1.134s] Removing /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav-robot-simulation.egg-link (link to .)
+[1.165s] Invoked command in '/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation' returned '0': PYTHONPATH=/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/build
+[1.168s] Invoking command in '/home/mariocool11/nav_robot_wsp/src/nav_robot_simulation': PYTHONPATH=/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav_robot_simulation build --build-base /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/build install --record /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/install.log --single-version-externally-managed install_data --force
+[1.441s] running egg_info
+[1.441s] writing ../../build/nav_robot_simulation/nav_robot_simulation.egg-info/PKG-INFO
+[1.442s] writing dependency_links to ../../build/nav_robot_simulation/nav_robot_simulation.egg-info/dependency_links.txt
+[1.442s] writing entry points to ../../build/nav_robot_simulation/nav_robot_simulation.egg-info/entry_points.txt
+[1.442s] writing requirements to ../../build/nav_robot_simulation/nav_robot_simulation.egg-info/requires.txt
+[1.442s] writing top-level names to ../../build/nav_robot_simulation/nav_robot_simulation.egg-info/top_level.txt
+[1.444s] reading manifest file '../../build/nav_robot_simulation/nav_robot_simulation.egg-info/SOURCES.txt'
+[1.444s] writing manifest file '../../build/nav_robot_simulation/nav_robot_simulation.egg-info/SOURCES.txt'
+[1.445s] running build
+[1.445s] running build_py
+[1.445s] running install
+[1.445s] running install_lib
+[1.446s] creating /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav_robot_simulation
+[1.446s] copying /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/build/lib/nav_robot_simulation/__init__.py -> /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav_robot_simulation
+[1.447s] byte-compiling /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav_robot_simulation/__init__.py to __init__.cpython-310.pyc
+[1.447s] running install_data
+[1.447s] copying resource/nav_robot_simulation -> /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/ament_index/resource_index/packages
+[1.447s] copying package.xml -> /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation
+[1.447s] running install_egg_info
+[1.449s] Copying ../../build/nav_robot_simulation/nav_robot_simulation.egg-info to /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav_robot_simulation-0.0.0-py3.10.egg-info
+[1.450s] running install_scripts
+[1.472s] writing list of installed files to '/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/install.log'
+[1.499s] Invoked command in '/home/mariocool11/nav_robot_wsp/src/nav_robot_simulation' returned '0': PYTHONPATH=/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav_robot_simulation build --build-base /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/build install --record /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/install.log --single-version-externally-managed install_data --force

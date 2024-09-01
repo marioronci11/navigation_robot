@@ -1,0 +1,28 @@
+running develop
+Removing /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav-robot-simulation.egg-link (link to .)
+running egg_info
+writing ../../build/nav_robot_simulation/nav_robot_simulation.egg-info/PKG-INFO
+writing dependency_links to ../../build/nav_robot_simulation/nav_robot_simulation.egg-info/dependency_links.txt
+writing entry points to ../../build/nav_robot_simulation/nav_robot_simulation.egg-info/entry_points.txt
+writing requirements to ../../build/nav_robot_simulation/nav_robot_simulation.egg-info/requires.txt
+writing top-level names to ../../build/nav_robot_simulation/nav_robot_simulation.egg-info/top_level.txt
+reading manifest file '../../build/nav_robot_simulation/nav_robot_simulation.egg-info/SOURCES.txt'
+writing manifest file '../../build/nav_robot_simulation/nav_robot_simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav_robot_simulation
+copying /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/build/lib/nav_robot_simulation/__init__.py -> /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav_robot_simulation
+byte-compiling /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav_robot_simulation/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying package.xml -> /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation
+copying launch/nav_robot_simulation.launch.py -> /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation/launch
+creating /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation/worlds
+copying worlds/my_world.world -> /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation/worlds
+creating /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation/models
+copying models/my_robot.urdf -> /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation/models
+running install_egg_info
+Copying ../../build/nav_robot_simulation/nav_robot_simulation.egg-info to /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav_robot_simulation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/install.log'

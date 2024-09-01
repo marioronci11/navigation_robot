@@ -1,0 +1,37 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (nav_robot_simulation) JobQueued: {'identifier': 'nav_robot_simulation', 'dependencies': OrderedDict()}
+[0.000256] (nav_robot_simulation) JobStarted: {'identifier': 'nav_robot_simulation'}
+[0.099084] (-) TimerEvent: {}
+[0.199353] (-) TimerEvent: {}
+[0.299622] (-) TimerEvent: {}
+[0.399883] (-) TimerEvent: {}
+[0.500189] (-) TimerEvent: {}
+[0.600449] (-) TimerEvent: {}
+[0.643890] (nav_robot_simulation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation', 'env': {'USER': 'mariocool11', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mariocool11', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/mariocool11/nav_robot_wsp', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1647', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mariocool11/nav_robot_wsp/install:/home/mariocool11/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mariocool11', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mariocool11', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mariocool11/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mariocool11-GS60-2QE:@/tmp/.ICE-unix/1618,unix/mariocool11-GS60-2QE:/tmp/.ICE-unix/1618', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3efb8be9_0699_4a25_a642_b3e7f0d61416', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RKROT2', 'GNOME_TERMINAL_SERVICE': ':1.288', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation:/home/mariocool11/ros2_ws/install/my_test_package:/home/mariocool11/ros2_ws/install/my_py_pkg:/home/mariocool11/ros2_ws/install/my_package:/home/mariocool11/ros2_ws/install/my_cpp_pkg:/home/mariocool11/ros2_ws/install/my_cpp2_pkg:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/mariocool11/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'CXX': '/usr/bin/g++', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/mariocool11/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages:/home/mariocool11/nav_robot_wsp/build/nav_robot_simulation:/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/home/mariocool11/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CC': '/usr/bin/gcc', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mariocool11/ros2_ws/install/my_test_package:/home/mariocool11/ros2_ws/install/my_package:/home/mariocool11/ros2_ws/install/my_cpp_pkg:/home/mariocool11/ros2_ws/install/my_cpp2_pkg'}, 'shell': False}
+[0.700564] (-) TimerEvent: {}
+[0.800840] (-) TimerEvent: {}
+[0.901106] (-) TimerEvent: {}
+[0.923378] (nav_robot_simulation) StdoutLine: {'line': b'running develop\n'}
+[0.923702] (nav_robot_simulation) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.923808] (nav_robot_simulation) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.001190] (-) TimerEvent: {}
+[1.101459] (-) TimerEvent: {}
+[1.120796] (nav_robot_simulation) StdoutLine: {'line': b'running egg_info\n'}
+[1.121048] (nav_robot_simulation) StdoutLine: {'line': b'writing nav_robot_simulation.egg-info/PKG-INFO\n'}
+[1.121335] (nav_robot_simulation) StdoutLine: {'line': b'writing dependency_links to nav_robot_simulation.egg-info/dependency_links.txt\n'}
+[1.121515] (nav_robot_simulation) StdoutLine: {'line': b'writing entry points to nav_robot_simulation.egg-info/entry_points.txt\n'}
+[1.121733] (nav_robot_simulation) StdoutLine: {'line': b'writing requirements to nav_robot_simulation.egg-info/requires.txt\n'}
+[1.121932] (nav_robot_simulation) StdoutLine: {'line': b'writing top-level names to nav_robot_simulation.egg-info/top_level.txt\n'}
+[1.123604] (nav_robot_simulation) StdoutLine: {'line': b"reading manifest file 'nav_robot_simulation.egg-info/SOURCES.txt'\n"}
+[1.124439] (nav_robot_simulation) StdoutLine: {'line': b"writing manifest file 'nav_robot_simulation.egg-info/SOURCES.txt'\n"}
+[1.125777] (nav_robot_simulation) StdoutLine: {'line': b'running build_ext\n'}
+[1.126025] (nav_robot_simulation) StdoutLine: {'line': b'Creating /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/lib/python3.10/site-packages/nav-robot-simulation.egg-link (link to .)\n'}
+[1.126817] (nav_robot_simulation) StdoutLine: {'line': b'\n'}
+[1.126938] (nav_robot_simulation) StdoutLine: {'line': b'Installed /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation\n'}
+[1.127003] (nav_robot_simulation) StdoutLine: {'line': b'running symlink_data\n'}
+[1.127168] (nav_robot_simulation) StdoutLine: {'line': b'symbolically linking /home/mariocool11/nav_robot_wsp/build/nav_robot_simulation/package.xml -> /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation\n'}
+[1.127257] (nav_robot_simulation) StdoutLine: {'line': b'creating /home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation/launch\n'}
+[1.127391] (nav_robot_simulation) StderrLine: {'line': b"error: [Errno 2] No such file or directory: '/home/mariocool11/nav_robot_wsp/install/nav_robot_simulation/share/nav_robot_simulation/launch/nav_robot_simulation.launch.py'\n"}
+[1.162056] (nav_robot_simulation) CommandEnded: {'returncode': 1}
+[1.162549] (nav_robot_simulation) JobEnded: {'identifier': 'nav_robot_simulation', 'rc': 1}
+[1.172700] (-) EventReactorShutdown: {}
